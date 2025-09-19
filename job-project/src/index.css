@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+@layer base {
+  :root {
+    /* Global Text Colors */
+    --text-primary: #000000;
+    --text-secondary: #101010;
+    --text-tertiary: #1e1e1e;
+    --text-muted: #adadad;
+    --text-white: #ffffff;
+
+    /* Global Background Colors */
+    --bg-black: #000000;
+    --bg-dark-1: #0c0c0c;
+    --bg-dark-2: #101010;
+    --bg-dark-3: #212121;
+    --bg-white: #ffffff;
+    --bg-white-transparent: #ffffff7f;
+
+    /* Global Border Colors */
+    --border-white: #ffffff;
+
+    /* Typography Variables */
+    --font-size-xs: 12px;
+    --font-size-sm: 14px;
+    --font-size-base: 16px;
+    --font-size-lg: 20px;
+    --font-size-xl: 24px;
+    --font-size-2xl: 32px;
+    --font-size-3xl: 40px;
+    --font-size-4xl: 48px;
+    --font-size-5xl: 56px;
+    --font-size-6xl: 64px;
+    --font-size-7xl: 72px;
+    --font-size-8xl: 80px;
+    --font-size-9xl: 100px;
+    --font-size-10xl: 120px;
+    --font-size-hero: 270px;
+
+    /* Font Weight Variables */
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* Line Height Variables */
+    --line-height-tight: 15px;
+    --line-height-snug: 20px;
+    --line-height-normal: 24px;
+    --line-height-relaxed: 30px;
+    --line-height-loose: 36px;
+    --line-height-xl: 39px;
+
+    /* Spacing Variables */
+    --spacing-1: 4px;
+    --spacing-2: 6px;
+    --spacing-3: 8px;
+    --spacing-4: 10px;
+    --spacing-5: 12px;
+    --spacing-6: 14px;
+    --spacing-7: 16px;
+    --spacing-8: 18px;
+    --spacing-9: 20px;
+    --spacing-10: 24px;
+    --spacing-12: 30px;
+    --spacing-14: 32px;
+    --spacing-16: 34px;
+    --spacing-18: 36px;
+    --spacing-20: 40px;
+    --spacing-24: 48px;
+    --spacing-28: 56px;
+    --spacing-32: 64px;
+    --spacing-40: 80px;
+    --spacing-44: 88px;
+    --spacing-48: 100px;
+
+    /* Border Radius Variables */
+    --radius-lg: 20px;
+    --radius-xl: 30px;
+    --radius-2xl: 40px;
+    --radius-3xl: 50px;
+
+    /* Border Width Variables */
+    --border-width-thin: 1px;
+    --border-width-medium: 2px;
+
+    /* Component-specific Colors */
+    --header-width: 90%;
+    --logo-width: 252px;
+    --logo-margin: 90px;
+
+    /* Link Component Colors */
+    --link-text: #ffffff;
+    --link-border: #ffffff;
+    --link-bg: transparent;
+
+    /* Button Component Colors */
+    --button-text-primary: #101010;
+    --button-text-secondary: #1e1e1e;
+    --button-text-white: #ffffff;
+    --button-bg: #ffffff;
+    --button-border: #ffffff;
+
+    /* IconButton Component Colors */
+    --icon-button-bg: #ffffff7f;
+    --icon-button-border: #ffffff;
+
+    /* ExpandableList Component Colors */
+    --expandable-text: #ffffff;
+    --expand-header-bg: #000000;
+    --expand-item-text: #adadad;
+  }
+}
